@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Plantify | Nursery Website</title>
+
+    <!-- bootstarp link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-black">
+        <div class="container">
+            <a href="#" class="navbar-brand">Plantify</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a href="#main" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#products" class="nav-link">Products</a></li>
+                    <li class="nav-item"><a href="#best-seller" class="nav-link">Best Seller</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    <li class="nav-item">
+                        <a href="#main" class="nav-link">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home -->
+    <section id="main">
+        <div id="Carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#Carousel" data-slide-to="1"></li>
+                <li data-target="#Carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image-1 active">
+                    <div class="carousel-caption text-right mb-5">
+                        <h1 class="display-3 title-color">Go Green</h1>
+                        <p>"Don't judge each day by the harvest you reap but by the seeds that you plant."</p>
+                        <a href="#" class="btn btn-color btn-lg">Sign Up Now</a>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-2">
+                    <div class="carousel-caption text-right mb-5">
+                        <h1 class="display-3 title-color">In awe of God's creation</h1>
+                        <p>"A beautiful plant is like having a friend around the house."</p>
+                        <a href="#" class="btn btn-color btn-lg">Learn More</a>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-3">
+                    <div class="carousel-caption text-right mb-5">
+                        <h1 class="display-3 title-color">This is heaven on earth.</h1>
+                        <p>"Always do your best. What you plant now, you will harvest later."</p>
+                        <a href="#" class="btn btn-color btn-lg">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#Carousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#Carousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section class="services py-5 text-center" id="about">
+        <div class="container">
+            <div class="col-10 mx-auto text-center text-color">
+                <h2 class="text-uppercase">We are a reference in the market for</h2>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4 my-3">
+                    <i class="fas fa-leaf fa-3x fab"></i>
+                    <h5 class="font-weight-bold mt-3">Flowers & Trees</h5>
+                    <p>"Life is the flower for which love is the honey."</p>
+                </div>
+                <div class="col-md-4 my-3">
+                    <i class="fas fa-tree fa-3x fab"></i>
+                    <h5 class="font-weight-bold mt-3">Garden Items</h5>
+                    <p>"Love is the flower you’ve got to let grow."</p>
+                </div>
+                <div class="col-md-4 my-3">
+                    <i class="fas fa-seedling fa-3x fab"></i>
+                    <h5 class="font-weight-bold mt-3">Best Quality Pots</h5>
+                    <p>"Happiness shared is the flower."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- products -->
+    <section class="products py-5" id="products">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <h1 class="product-title">Our Products</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 my-3">
+                    <div class="card single-item">
+                        <img src="https://www.shaileshnursery.com/wp-content/uploads/2019/05/pots-at-shailesh-nursery-02.jpg" class="card-img-top">
+                        <div class="card-body d-flex justify-content-between">
+                            <h5>Pots</h5>
+                            <span>₹350</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+                    <div class="card single-item">
+                        <img src="https://nurserylive.com/cdn/shop/collections/nurserylive-flowering-plants-category-image-505581_600x600.jpg?v=1681381493" class="card-img-top">
+                        <div class="card-body d-flex justify-content-between">
+                            <h5>Flowers</h5>
+                            <span>₹500</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+                    <div class="card single-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Cutchogue_-_Oregon_Road_-_Plant_Nursery.jpg" class="card-img-top">
+                        <div class="card-body d-flex justify-content-between">
+                            <h5>Plants</h5>
+                            <span>₹50</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+                    <div class="card single-item">
+                        <img src="https://cbnursery.in/uploads/menu/168510533219A6050.JPG" class="card-img-top">
+                        <div class="card-body d-flex justify-content-between">
+                            <h5>Plants</h5>
+                            <span>₹150</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+                    <div class="card single-item">
+                        <img src="https://content.jdmagicbox.com/comp/def_content/plant_nurseries/default-plant-nurseries-0.jpg" class="card-img-top">
+                        <div class="card-body d-flex justify-content-between">
+                            <h5>Pots</h5>
+                            <span>₹400</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+                    <div class="card single-item">
+                        <img src="https://cdn.britannica.com/86/75886-050-B481C97E/Apricots.jpg" class="card-img-top">
+                        <div class="card-body d-flex justify-content-between">
+                            <h5>Appricots</h5>
+                            <span>₹250</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seller -->
+    <section class="seller py-5" id="best-seller">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h1 class="product-title black">Best Seller</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="seller-item">
+                        <img src="https://cdn.pixabay.com/photo/2024/02/21/15/28/dahlia-8587940_1280.jpg" class="img-fluid photo">
+                        <p>"One rose says more than the dozen"</p>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex flex-column justify-content-between">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="seller-item">
+                                <img src="https://hips.hearstapps.com/hmg-prod/images/summer-flowers-sunflower-1648478429.jpg?crop=0.534xw:1.00xh;0.416xw,0" class="img-fluid seller-img">
+                                <p>"Love is the flower you've got to let grow"</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="seller-item">
+                                <img src="https://webneel.com/wallpaper/sites/default/files/images/01-2014/8-flower-wallpaper.jpg" class="img-fluid seller-img">
+                                <p>"Every flower is a soul blossoming in nature"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-6">
+                            <div class="seller-item">
+                                <img src="https://images.pexels.com/photos/736230/pexels-photo-736230.jpeg" class="img-fluid seller-img">
+                                <p>"When the flower blooms, bees come uninvited"</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="seller-item">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp5viJC-k9VN_A6h_WTY6WhEwGFzsuFQ2ANg" class="img-fluid seller-img">
+                                <p>"Flowers follow the sun even on cloudy days"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section class="contact py-5" id="contact">
+        <div class="container">
+            <h2 class="text-center">Contact Us</h2>
+            <form class="col-lg-6 offset-lg-3">
+                <input type="text" class="form-control mb-3" placeholder="Name">
+                <input type="email" class="form-control mb-3" placeholder="Email">
+                <textarea class="form-control mb-3" rows="5" placeholder="Message"></textarea>
+                <button class="btn btn-color btn-block">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer-section text-center">
+        <div class="container">
+            <div class="mb-4">
+                <h4 class="mb-3">Follow Us</h4>
+                <i class="fab fa-facebook-f social-icon"></i>
+                <i class="fab fa-twitter social-icon"></i>
+                <i class="fab fa-instagram social-icon"></i>
+                <i class="fab fa-linkedin-in social-icon"></i>
+            </div>
+            <div class="row text-center mb-3">
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <p><a href="#main">Home</a></p>
+                    <p><a href="#about">About</a></p>
+                    <p><a href="#products">Products</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Support</h5>
+                    <p><a href="#">FAQs</a></p>
+                    <p><a href="#">Help</a></p>
+                    <p><a href="#">Privacy Policy</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact</h5>
+                    <p>Email: plantify@gmail.com</p>
+                    <p>Phone: +91 98765 43210</p>
+                    <p>India</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Plantify | All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- bootstrap js links -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+    <!-- js link -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
